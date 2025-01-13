@@ -1,0 +1,8 @@
+*.log
+*.ldr.processed
+all-*.tar.gz
+.idea/*
+vendor
+composer.lock
+logs
+db_data
