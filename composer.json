@@ -1,0 +1,21 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.7",
+        "sergeytsalkov/meekrodb": "^3.1",
+        "slim/php-view": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarketplaceExercise\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MarketplaceExercise\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t public"
+    }
+}
